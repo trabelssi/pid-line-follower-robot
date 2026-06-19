@@ -46,12 +46,6 @@ The robot uses a **2-IR sensor differential drive system**:
 
 The PID algorithm continuously refines the correction to minimize error and prevent overshooting.
 
-### Control Flow Diagram
-
-![PID Control Flow](docs/pid_line_follower_control_flow.png)
-
-The diagram above illustrates the complete control flow from sensor reading through PID calculation to motor control.
-
 ## Components
 
 | Component | Quantity | Purpose |
